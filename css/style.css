@@ -1,11 +1,11 @@
 body{
-  width: 100%;
   background: #28424A;
+  font-family: sans-serif;
 }
 .wrapper{
   background: #ffffff;
   width: 90%;
-  margin: 2% 5%;
+  margin: 5% auto;
   overflow: hidden;
 }
 header{
@@ -36,5 +36,57 @@ nav a{
 nav a:hover{
   background: #19B080;
   border-radius: 20px;
+}
+footer{
+  background: #28424A;
+  clear: both;
+  padding: 15px;
+  text-align: center;
+}
+main{
+  width: 100%;
+  overflow: hidden;
+  display: inline-block;
+  clear: both;
+}
+.ppalcont{
+  width: 68%;
+  padding: 2% 1%;
+  float: left;
+}
+.ppalcont article{
+  padding: 0 2%;
+  border: solid 1px black;
+  text-align: justify;
+}
+aside{
+  width: 26%;
+  float: left;
+  padding: 2% 2%;
+}
 
+aside article{
+  padding: 0 2%;
+  border: solid 1px black;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.columns{
+  margin: auto;
+  display: inline-block;
+}
+#a1{
+  width: 35%;
+  float: left;
+}
+#a2{
+  width: 35%;
+  float: left;
+}
+#a3{
+  width: 25%;
+  float: left;
+  padding: 0 2%;
+  border: solid 1px black;
+  text-align: justify;
 }
