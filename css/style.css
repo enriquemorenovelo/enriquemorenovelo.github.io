@@ -1,0 +1,40 @@
+body{
+  width: 100%;
+  background: #28424A;
+}
+.wrapper{
+  background: #ffffff;
+  width: 90%;
+  margin: 2% 5%;
+  overflow: hidden;
+}
+header{
+  width: 100%;
+  overflow: hidden;
+  background: #b02219;
+}
+#title{
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 150px;
+  float: left;
+  padding-left: 50px;
+}
+nav{
+  float: right;
+  line-height: 220px;
+  padding-right: 30px;
+}
+nav a{
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  line-height: normal;
+  font-weight: bold;
+}
+nav a:hover{
+  background: #19B080;
+  border-radius: 20px;
+
+}
