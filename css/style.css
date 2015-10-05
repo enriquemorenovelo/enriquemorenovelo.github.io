@@ -66,6 +66,7 @@ main{
   float: left;
 }
 .ppalcont article{
+  height: 725px;
   padding: 0 2%;
   border: solid 1px black;
   text-align: justify;
@@ -105,7 +106,7 @@ hr{
   padding: 0 .9%;
   text-align: justify;
 }
-#imgcodbo3, #imgrmag{
+#imgcodbo3, #imgrmag, #imgbio{
   display: block;
   margin: 0 auto;
 }
@@ -136,4 +137,26 @@ hr{
 }
 .linkext:hover{
   text-decoration: underline;
+}
+#imgbio{
+  width: 300px;
+  border-radius: 350px;
+  border: 4px double black;
+  border-style: outset;
+}
+table, th, td{
+  border: 3px solid black;
+  border-collapse:collapse;
+  font-family:arial;
+  text-align: left;
+}
+td:nth-child(1){
+  background-color: #eee;
+  padding:2px;
+}
+th{
+  font-family:arial;
+  text-align: center;
+  background-color: #19B080;
+  color: white;
 }
