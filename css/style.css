@@ -1,6 +1,7 @@
 body{
   background: #28424A;
   font-family: sans-serif;
+  color: black;
 }
 .wrapper{
   background: #ffffff;
@@ -41,6 +42,9 @@ nav a:hover{
 nav a:focus{
   outline: 0;
 }
+nav a:active{
+  background: #127D5B;
+}
 footer{
   font-size: 18px;
   font-family: Times;
@@ -79,6 +83,9 @@ aside article{
   border: solid 1px black;
   text-align: justify;
   margin-bottom: 15px;
+}
+aside article p{
+  font-style: italic;
 }
 hr{
   width: 98%;
@@ -122,4 +129,11 @@ hr{
 }
 #a3 ul{
   list-style: none;
+}
+.linkext{
+  text-decoration: none;
+  color: black;
+}
+.linkext:hover{
+  text-decoration: underline;
 }
